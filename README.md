@@ -4,7 +4,7 @@ NPM5 has completely screwed `npm link` development for multi-module developers w
 
 This just opens your `package.json`, looks at the dependencies and then links to any directories it finds in the parent that match your dependencies.
 
-now you can just execute `npm-auto-link` and not continually downgrade or play the relink dance.
+now you can just execute `npm-auto-link` and not continually downgrading or playing the relink dance.
 
 Enjoy,
 
