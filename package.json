@@ -1,0 +1,34 @@
+{
+    "name": "npm-auto-link",
+    "homepage": "https://github.com/khrome/npm-auto-link",
+    "version": "0.0.1",
+    "main": "fix.js",
+    "description": "Robots to wage the relink war against npm5 install",
+    "keywords": [
+        "npm5",
+        "link"
+    ],
+    "author": "Abbey Hawk Sparrow <@khrome> (http://patternweaver.com)",
+    "contributors": [],
+    "bugs": {
+        "url": "https://github.com/khrome/npm-auto-link/issues"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/khrome/npm-auto-link.git"
+    },
+    "bin": {
+        "auto-link-fixer": "fix.js"
+    },
+    "dependencies": {
+        "array-intersection": "^0.1.2",
+        "async-arrays": "^1.0.1",
+        "npm": "^5.6.0"
+    },
+    "devDependencies": {},
+    "optionalDependencies": {},
+    "engines": {
+        "node": "*"
+    }
+}
