@@ -1,5 +1,6 @@
+#!/usr/bin/env node
 var fs = require('fs');
-var pack = require('./package');
+var pack = require(process.cwd()+'/package');
 var npm = require('npm');
 var arrays = require('async-arrays');
 var intersect = require('array-intersection');
@@ -13,7 +14,7 @@ if(pack.devDependencies)
     packages = packages.concat(Object.keys(pack.devDependencies));
 if(pack.optionalDependencies)
     packages = packages.concat(Object.keys(pack.optionalDependencies));
-fs.readdir('..', function(err, files){
+fs.readdir(process.cwd()+'/..', function(err, files){
     var linkables = intersect(files, packages);
     npm.load({
         loaded: false
