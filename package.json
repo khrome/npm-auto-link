@@ -1,7 +1,7 @@
 {
     "name": "module-auto-link",
     "homepage": "https://github.com/khrome/npm-auto-link",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "linker.js",
     "description": "Robots to wage the relink war against npm5 install",
     "keywords": [

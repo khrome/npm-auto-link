@@ -2,5 +2,5 @@
 var pack = require(process.cwd()+'/package');
 var link = require('./linker');
 link(pack, function(err, linked){
-    console.log('linked: '+linkables.join(', '));
+    console.log('linked: '+linked.join(', '));
 });
