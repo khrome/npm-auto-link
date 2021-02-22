@@ -1,8 +1,8 @@
 {
     "name": "module-auto-link",
     "homepage": "https://github.com/khrome/npm-auto-link",
-    "version": "0.0.3",
-    "main": "fix.js",
+    "version": "1.0.0",
+    "main": "linker.js",
     "description": "Robots to wage the relink war against npm5 install",
     "keywords": [
         "npm5",
@@ -24,7 +24,7 @@
     "dependencies": {
         "array-intersection": "^0.1.2",
         "async-arrays": "^1.0.1",
-        "npm": "^5.6.0"
+        "npm": "^6.14.6"
     },
     "devDependencies": {},
     "optionalDependencies": {},
